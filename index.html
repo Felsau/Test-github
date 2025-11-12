@@ -5,31 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>สวัสดี</title>
   <style>
-    /* ตั้งค่าพื้นฐานของหน้าเว็บ */
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap');
+
     body {
       margin: 0;
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #74ABE2, #5563DE);
+      background-color: #4da6ff; 
       font-family: 'Prompt', sans-serif;
     }
 
-    /* กล่องข้อความตรงกลาง */
     .box {
-      background: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(10px);
-      border-radius: 15px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
       padding: 50px 100px;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
       text-align: center;
       color: white;
-      font-size: 3em;
       animation: fadeIn 2s ease;
     }
 
-    /* เอฟเฟกต์เคลื่อนไหวเบา ๆ */
+    .box h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .box p {
+      font-size: 1.5em;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -38,7 +47,8 @@
 </head>
 <body>
   <div class="box">
-    สวัสดี 👋
+    <h1>สวัสดี 👋</h1>
+    <p>นายอติชาติ ผาแสนเถิน</p>
   </div>
 </body>
 </html>
