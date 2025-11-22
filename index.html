@@ -1,54 +1,112 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>สวัสดี</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap');
-
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #4da6ff; 
-      font-family: 'Prompt', sans-serif;
-    }
-
-    .box {
-      background: rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(12px);
-      border-radius: 20px;
-      padding: 50px 100px;
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
-      text-align: center;
-      color: white;
-      animation: fadeIn 2s ease;
-    }
-
-    .box h1 {
-      font-size: 3em;
-      margin: 0;
-    }
-
-    .box p {
-      font-size: 1.5em;
-      margin-top: 10px;
-      opacity: 0.9;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portfolio</title>
 </head>
+
 <body>
-  <div class="box">
-    <h1>สวัสดี 👋</h1>
-    <p>นายอติชาติ ผาแสนเถิน 6702618</p>
-  </div>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Home</h2>
+            <img src="profile.jpg" alt="Profile Picture" width="200">
+            <p>Welcome to my portfolio website!</p>
+            <p>Hello Everyone This is my portfolio website for Education website</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My Name is Atichat Phasaenthoen 67026168 </p>
+            <p>Nick name is Fook</p>
+            <h3></h3>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates">
+            <h2>Certificates & Awards</h2>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook: 
+                    <a href="https://www.facebook.com/atichat.phasaenthian/" target="_blank">
+                        Atichat Phasaenthoen
+                    </a>
+                </li>
+
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram: 
+                    <a href="https://www.instagram.com/felsau/" target="_blank">
+                        Kurmfav
+                    </a>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    Phone: 090-757-4827
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-message"></i>
+                    Email: 67026168@up.ac.th
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 My Portfolio</p>
+    </footer>
+
 </body>
+
 </html>
